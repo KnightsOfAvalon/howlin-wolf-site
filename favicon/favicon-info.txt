@@ -1,4 +1,4 @@
-This favicon was generated using the following font:
+The favicon for this site was generated using the following font:
 
 - Font Title: Leckerli One
 - Font Author: Copyright (c) 2011 Gesine Todt (www.gesine-todt.de), with Reserved Font Names "Leckerli"
