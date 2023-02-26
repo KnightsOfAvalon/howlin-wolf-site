@@ -1,0 +1,172 @@
+/* Darker cream color for body (surrounds entire webpage and in-between individual elements) */
+body {
+  background-color: #ebd5ab;
+}
+
+/* Orange color for header and footer background */
+header, footer {
+  background-color: #f69f39;
+}
+
+/* Brown color for page titles, largest font */
+header h1 {
+  color: #4c3112;
+  font-size: 40px;
+}
+
+/* Lighter cream color for main section of pages */
+main {
+  background-color: #f0ece9; 
+}
+
+/* Nav background matches page titles, vertical lines match body, 25px */
+nav {
+  background-color: #4c3112;
+  color: #ebd5ab;
+  font-size: 25px;
+}
+
+/* START OF SPECIAL FORMATTING FOR NAV BAR LINKS */
+/* 
+  Font colors do not change (orange color matches header/footer background), no underlines, 25px, font will bold to show active or hover
+*/
+.navbar {
+  color: #f69f39;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.navbar:link,
+.navbar:visited,
+.navbar:active,
+.navbar:hover {
+  color: #f69f39;
+}
+
+.navbar:hover {
+  font-weight: bold;
+}
+/* END OF SPECIAL FORMATTING FOR NAV BAR LINKS */
+
+/* Brown color for section headings */
+h2, h3 {
+  /* color: #7d1c0b; */
+  color: #4c3112;
+}
+
+/* Set font size for all h2 headings */
+h2 {
+  font-size: 30px;
+}
+
+/* Set font size for all h3 headings */
+h3 {
+  font-size: 20px;
+}
+
+/* Slightly off-black color for main text */
+main {
+  color: #352a27;
+}
+
+/* 
+  Formatting for main unordered lists - on index and FAQ pages 
+*/
+ul {
+  list-style-image: url(../images/musical-note-icon-12px.png);
+}
+
+/* 
+  Formatting for horizontal rules in main separates groups of elements in gallery
+*/ 
+main hr {
+  background-color: #ebd5ab;
+  border: none;
+  height: 2px;
+}
+
+/* Formatting for images on gallery page */
+main img {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4c3112;
+}
+
+/* START OF SPECIAL FORMATTING FOR FAQ LINKS */
+/* Ordered list links and "Back to Top" links */
+.faqLink:link {
+  color: #4c3112;
+}
+
+.faqLink:visited {
+  color: #7d1c0b;
+}
+
+.faqLink:active, .faqLink:hover {
+  font-style: italic;
+}
+/* END OF SPECIAL FORMATTING FOR FAQ LINKS */
+
+/* Formatting for data list questions on FAQ page */
+dt {
+  background-color: #f69f39;
+  color: #4c3112;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+/* Formatting for data list answers on FAQ page */
+dd {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+/* START OF SPECIAL FORMATTING FOR EXTERNAL MAIN LINKS */
+/* 
+  Found in citations in the main element of index, FAQs, and gallery pages 
+*/
+/* 
+  Brown color for external main links, except when previously visited (turns burnt brown color), italics goes away to indicate hover or active 
+*/
+.mainExtLink:link {
+  color: #4c3112;
+}
+
+.mainExtLink:visited {
+  color: #7d1c0b;
+}
+
+.mainExtLink:active, .mainExtLink:hover {
+  font-style: normal;
+}
+/* END OF SPECIAL FORMATTING FOR EXTERNAL MAIN LINKS */
+
+/* Set font color for text in footer, brown font color matches header text */
+footer {
+  color: #4c3112;
+}
+
+/* Controls appearance of the hr in the footers, brown font color matches header text */
+footer hr {
+  height: 1px;
+  background-color: #4c3112;
+  border: none;
+}
+
+/* START OF SPECIAL FORMATTING FOR LINKS IN FOOTER: */
+/* 
+  Brown font color matches header text except when previously visited (turns burnt brown color), italics indicates hover or active
+*/
+.footlinks:link {
+  color: #4c3112;
+}
+
+.footlinks:visited {
+  color: #7d1c0b
+}
+
+.footlinks:hover, .footlinks:active {
+  font-style: italic;
+}
+/* END OF SPECIAL FORMATTING FOR LINKS IN FOOTER */
