@@ -8,6 +8,17 @@
   <!-- Favicon Links -->
   <link rel="shortcut icon" href="./favicon/favicon.ico">
   <link rel="apple-touch-icon" href="./favicon/apple-touch-icon.png">
+  <!-- External Styles -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <!-- Internal Styles -->
+  <style>
+    /* Styles the table caption */
+    #tblCap {
+      font-size: 23px;
+      font-weight: bold;
+      color: #4c3112;
+    }
+  </style>
   <title>Howlin' Wolf</title>
 </head>
 
@@ -19,10 +30,10 @@
   
   <!-- Same nav should be at the top of every page -->
   <nav>
-    <a href="index.html">Home</a> &nbsp; | &nbsp;
-    <a href="faqs.html">FAQs</a> &nbsp; | &nbsp;
-    <a href="gallery.html">Gallery</a> &nbsp; | &nbsp;
-    <a href="contact-us.html">Contact Us</a>
+    <a class="navbar" href="index.html">Home</a> &nbsp; | &nbsp;
+    <a class="navbar" href="faqs.html">FAQs</a> &nbsp; | &nbsp;
+    <a class="navbar" href="gallery.html">Gallery</a> &nbsp; | &nbsp;
+    <a class="navbar" href="contact-us.html">Contact Us</a>
   </nav>
   <!-- Same nav should be at the top of every page -->
 
@@ -34,7 +45,7 @@
       </blockquote>
 
       <cite>
-      - <a href="https://en.wikipedia.org/wiki/Sam_Phillips" target="_blank" rel="external">Sam Phillips</a>, American record producer
+      - <a class="mainExtLink" href="https://en.wikipedia.org/wiki/Sam_Phillips" target="_blank" rel="external">Sam Phillips</a>, American record producer
       </cite>      
     </div>
     <!-- End Quote -->
@@ -70,7 +81,7 @@
         NOTE: The following border, cellspacing, and cellpadding attributes used in the table generates errors in the W3 Validator service because those attributes are obsolete. The border attribute should be replaced with the equivalent CSS attribute 'border-width' used on the table. The cellspacing attribute should be replaced with the equivalent CSS attribute 'border-spacing' used on the table. The cellpadding attribute should be replaced with the equivalent CSS attribute 'padding' used on the table's td and th elements. These errors cannot be resolved in the context of the current assignment (Lesson 6), but will be resolved in the coming weeks.
       -->
       <table border="1" cellspacing="2" cellpadding="5">
-        <caption>Howlin' Wolf Albums Released Prior to Death</caption>
+        <caption id="tblCap">Howlin' Wolf Albums Released Prior to Death</caption>
         <!-- Header Row -->
         <thead>
           <tr>
@@ -201,6 +212,14 @@
         <li>Memphis Music Hall of Fame, <em>'Musicians' Category</em>, 2012</li>
         <li>Blues Hall of Fame, <em>'Classic of Blues Recording: Album' Category</em>, 2020</li>
       </ul>
+
+      <cite>
+        <small>
+          <a class="mainExtLink" target="_blank" href="https://icons8.com/icon/59845/musical-notes" rel="external">Musical Notes</a> 
+          icon by 
+          <a class="mainExtLink" target="_blank" href="https://icons8.com" rel="external">Icons8</a>
+        </small>
+      </cite>
       
       <p>
         In order to extend Howlin' Wolf's legacy even further, Bettye Kelly, his daughter, established The Howlin' Wolf Foundation, a non-profit organization. Its goal is to preserve the blues music genre, provide scholarships to allow students to participate in music programs, and support blues musicians and blues programs. At the time of writing, there is no current information on the foundation. However, Kelly is currently heading a crowdfunding campaign to establish the Chester "Howlin' Wolf" Burnett Artist-in-Residence Fund at Columbia College.
@@ -210,8 +229,8 @@
 
     <!-- Citations -->
     <cite> Sources: 
-      <a href="https://en.wikipedia.org/wiki/Howlin%27_Wolf" target="_blank" rel="external">Howlin' Wolf Wikipedia Article</a>,
-      <a href="https://columbiacollegechi.imodules.com/s/1871/cf22/crowdfunding.aspx?sid=1871&gid=2&pgid=1477" target="_blank" rel="external">Bettye Kelly's Crowdfunding Page</a>
+      <a class="mainExtLink" href="https://en.wikipedia.org/wiki/Howlin%27_Wolf" target="_blank" rel="external">Howlin' Wolf Wikipedia Article</a>,
+      <a class="mainExtLink" href="https://columbiacollegechi.imodules.com/s/1871/cf22/crowdfunding.aspx?sid=1871&gid=2&pgid=1477" target="_blank" rel="external">Bettye Kelly's Crowdfunding Page</a>
     </cite>
     <!-- End Citations -->
   </main>
@@ -226,11 +245,11 @@
     <hr>
   
     <div>
-      <a href="./favicon/favicon-info.txt" target="_blank">Site Favicon Information</a>
+      <a class="footlinks" href="./favicon/favicon-info.txt" target="_blank">Site Favicon Information</a>
       &nbsp; &nbsp; | &nbsp; &nbsp;
-      <a href="https://www.dallascollege.edu/pages/default.aspx" target="_blank" rel="external">Dallas College Website</a>
+      <a class="footlinks" href="https://www.dallascollege.edu/pages/default.aspx" target="_blank" rel="external">Dallas College Website</a>
       &nbsp; &nbsp; | &nbsp; &nbsp;
-      <a href="mailto:AMatthew@Student.DallasCollege.edu" target="_blank" rel="external">Email the "Webmaster"</a>
+      <a class="footlinks" href="mailto:AMatthew@Student.DallasCollege.edu" target="_blank" rel="external">Email the "Webmaster"</a>
     </div>
   </footer>
   <!-- Same footer should be at the bottom of every page, UPDATE LAST UPDATED!! -->
