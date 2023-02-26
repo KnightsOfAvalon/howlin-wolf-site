@@ -1,10 +1,17 @@
-/* Darker cream color for body (surrounds entire webpage and in-between individual elements) */
+/* Default styling for all pages */
+/* 
+  Darker cream color for body (surrounds entire webpage and in-between individual elements), set default font-family, font-size, and line-height
+*/
 body {
   background-color: #ebd5ab;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 /* Orange color for header and footer background */
-header, footer {
+header, 
+footer {
   background-color: #f69f39;
 }
 
@@ -16,19 +23,21 @@ header h1 {
 
 /* Lighter cream color for main section of pages */
 main {
-  background-color: #f0ece9; 
+  background-color: #f0ece9;
 }
 
-/* Nav background matches page titles, vertical lines match body, 25px */
+/* 
+  Nav background matches page titles, vertical lines match header/footer background, 25px 
+*/
 nav {
   background-color: #4c3112;
-  color: #ebd5ab;
+  color: #f69f39;
   font-size: 25px;
 }
 
 /* START OF SPECIAL STYLING FOR NAV BAR LINKS */
 /* 
-  Font colors do not change (orange color matches header/footer background), no underlines, 25px, font will bold to show active or hover
+    Applied to nav links for all pages. Font colors do not change (orange color matches header/footer background), no underlines, 25px, font will bold to show active or hover. 
 */
 .navbar {
   color: #f69f39;
@@ -49,8 +58,8 @@ nav {
 /* END OF SPECIAL STYLING FOR NAV BAR LINKS */
 
 /* Brown color for section headings */
-h2, h3 {
-  /* color: #7d1c0b; */
+h2, 
+h3 {
   color: #4c3112;
 }
 
@@ -64,20 +73,20 @@ h3 {
   font-size: 20px;
 }
 
-/* Slightly off-black color for main text */
+/* Slightly off-black color for all text in main element */
 main {
   color: #352a27;
 }
 
 /* 
-  Styling for main unordered lists - on index and FAQ pages 
+  Styling for main unordered lists - on index and FAQ pages. Turns default bullet points into musical notes
 */
 ul {
   list-style-image: url(../images/musical-note-icon-12px.png);
 }
 
 /* 
-  Styling for horizontal rules in main separates groups of elements in gallery
+  Styling for horizontal rules in main element - separates groups of elements in gallery. Sets color to match the body background color and height to 2px.
 */ 
 main hr {
   background-color: #ebd5ab;
@@ -85,49 +94,55 @@ main hr {
   height: 2px;
 }
 
-/* Styling for images on gallery page */
+/* Styling for images on gallery page. Applies a thin brown border. */
 main img {
   border-style: solid;
   border-width: 1px;
   border-color: #4c3112;
 }
 
-/* START OF SPECIAL STYLING FOR FAQ LINKS */
-/* Ordered list links and "Back to Top" links */
-.faqLink:link {
+/* START OF SPECIAL STYLING FOR FAQ LINKS AND FOOTER LINKS */
+/* 
+  Applied to ordered list links and "Back to Top" links. Brown color for links (burnt brown color if previously visited), italics to indicate active or hover.
+*/
+.faqLink:link, 
+.footlinks:link {
   color: #4c3112;
 }
 
-.faqLink:visited {
+.faqLink:visited, 
+.footlinks:visited {
   color: #7d1c0b;
 }
 
-.faqLink:active, .faqLink:hover {
+.faqLink:active, 
+.faqLink:hover, 
+.footlinks:active, 
+.footlinks:hover {
   font-style: italic;
 }
-/* END OF SPECIAL STYLING FOR FAQ LINKS */
+/* END OF SPECIAL STYLING FOR FAQ LINKS AND FOOTER LINKS */
 
-/* Styling for data list questions on FAQ page */
+/* 
+  Styling for data list questions on FAQ page. Applies background and font colors that match header/footer background and font color, 30px and bold font.
+*/
 dt {
   background-color: #f69f39;
   color: #4c3112;
   font-size: 30px;
   font-weight: bold;
-  line-height: 35px;
+
 }
 
-/* Styling for data list answers on FAQ page */
+/* Styling for data list answers on FAQ page. Applies 20px font size and extra spacing between lines. */
 dd {
   font-size: 20px;
-  line-height: 35px;
+  line-height: 2;
 }
 
 /* START OF SPECIAL STYLING FOR EXTERNAL MAIN LINKS */
 /* 
-  Found in citations in the main element of index, FAQs, and gallery pages 
-*/
-/* 
-  Brown color for external main links, except when previously visited (turns burnt brown color), italics goes away to indicate hover or active 
+  Applied to citations in the main element of index, FAQs, and gallery pages. Brown color for external main links (burnt brown color if previously visited), italics goes away to indicate hover or active.
 */
 .mainExtLink:link {
   color: #4c3112;
@@ -137,36 +152,20 @@ dd {
   color: #7d1c0b;
 }
 
-.mainExtLink:active, .mainExtLink:hover {
+.mainExtLink:active, 
+.mainExtLink:hover {
   font-style: normal;
 }
 /* END OF SPECIAL STYLING FOR EXTERNAL MAIN LINKS */
 
-/* Set font color for text in footer, brown font color matches header text */
+/* Set font color for footer text, brown font color matches header text */
 footer {
   color: #4c3112;
 }
 
-/* Controls styling of the hr in the footers, brown font color matches header text */
+/* Styling for hr in footers. Sets color to match surrounding text and height to 1px */
 footer hr {
   height: 1px;
   background-color: #4c3112;
   border: none;
 }
-
-/* START OF SPECIAL STYLING FOR LINKS IN FOOTER: */
-/* 
-  Brown font color matches header text except when previously visited (turns burnt brown color), italics indicates hover or active
-*/
-.footlinks:link {
-  color: #4c3112;
-}
-
-.footlinks:visited {
-  color: #7d1c0b
-}
-
-.footlinks:hover, .footlinks:active {
-  font-style: italic;
-}
-/* END OF SPECIAL STYLING FOR LINKS IN FOOTER */
