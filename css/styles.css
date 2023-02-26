@@ -26,7 +26,7 @@ nav {
   font-size: 25px;
 }
 
-/* START OF SPECIAL FORMATTING FOR NAV BAR LINKS */
+/* START OF SPECIAL STYLING FOR NAV BAR LINKS */
 /* 
   Font colors do not change (orange color matches header/footer background), no underlines, 25px, font will bold to show active or hover
 */
@@ -46,7 +46,7 @@ nav {
 .navbar:hover {
   font-weight: bold;
 }
-/* END OF SPECIAL FORMATTING FOR NAV BAR LINKS */
+/* END OF SPECIAL STYLING FOR NAV BAR LINKS */
 
 /* Brown color for section headings */
 h2, h3 {
@@ -70,14 +70,14 @@ main {
 }
 
 /* 
-  Formatting for main unordered lists - on index and FAQ pages 
+  Styling for main unordered lists - on index and FAQ pages 
 */
 ul {
   list-style-image: url(../images/musical-note-icon-12px.png);
 }
 
 /* 
-  Formatting for horizontal rules in main separates groups of elements in gallery
+  Styling for horizontal rules in main separates groups of elements in gallery
 */ 
 main hr {
   background-color: #ebd5ab;
@@ -85,14 +85,14 @@ main hr {
   height: 2px;
 }
 
-/* Formatting for images on gallery page */
+/* Styling for images on gallery page */
 main img {
   border-style: solid;
   border-width: 1px;
   border-color: #4c3112;
 }
 
-/* START OF SPECIAL FORMATTING FOR FAQ LINKS */
+/* START OF SPECIAL STYLING FOR FAQ LINKS */
 /* Ordered list links and "Back to Top" links */
 .faqLink:link {
   color: #4c3112;
@@ -105,9 +105,9 @@ main img {
 .faqLink:active, .faqLink:hover {
   font-style: italic;
 }
-/* END OF SPECIAL FORMATTING FOR FAQ LINKS */
+/* END OF SPECIAL STYLING FOR FAQ LINKS */
 
-/* Formatting for data list questions on FAQ page */
+/* Styling for data list questions on FAQ page */
 dt {
   background-color: #f69f39;
   color: #4c3112;
@@ -116,13 +116,13 @@ dt {
   line-height: 35px;
 }
 
-/* Formatting for data list answers on FAQ page */
+/* Styling for data list answers on FAQ page */
 dd {
   font-size: 20px;
   line-height: 35px;
 }
 
-/* START OF SPECIAL FORMATTING FOR EXTERNAL MAIN LINKS */
+/* START OF SPECIAL STYLING FOR EXTERNAL MAIN LINKS */
 /* 
   Found in citations in the main element of index, FAQs, and gallery pages 
 */
@@ -140,21 +140,21 @@ dd {
 .mainExtLink:active, .mainExtLink:hover {
   font-style: normal;
 }
-/* END OF SPECIAL FORMATTING FOR EXTERNAL MAIN LINKS */
+/* END OF SPECIAL STYLING FOR EXTERNAL MAIN LINKS */
 
 /* Set font color for text in footer, brown font color matches header text */
 footer {
   color: #4c3112;
 }
 
-/* Controls appearance of the hr in the footers, brown font color matches header text */
+/* Controls styling of the hr in the footers, brown font color matches header text */
 footer hr {
   height: 1px;
   background-color: #4c3112;
   border: none;
 }
 
-/* START OF SPECIAL FORMATTING FOR LINKS IN FOOTER: */
+/* START OF SPECIAL STYLING FOR LINKS IN FOOTER: */
 /* 
   Brown font color matches header text except when previously visited (turns burnt brown color), italics indicates hover or active
 */
@@ -169,4 +169,4 @@ footer hr {
 .footlinks:hover, .footlinks:active {
   font-style: italic;
 }
-/* END OF SPECIAL FORMATTING FOR LINKS IN FOOTER */
+/* END OF SPECIAL STYLING FOR LINKS IN FOOTER */
