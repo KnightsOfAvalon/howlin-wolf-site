@@ -37,7 +37,7 @@ nav {
 
 /* START OF SPECIAL STYLING FOR NAV BAR LINKS */
 /* 
-    Applied to nav links for all pages. Font colors do not change (orange color matches header/footer background), no underlines, 25px, font will bold to show active or hover. 
+  Applied to nav links for all pages. Font colors do not change (orange color matches header/footer background), no underlines, 25px, font will bold to show active or hover. 
 */
 .navbar {
   color: #f69f39;
@@ -103,7 +103,7 @@ main img {
 
 /* START OF SPECIAL STYLING FOR FAQ LINKS AND FOOTER LINKS */
 /* 
-  Applied to ordered list links and "Back to Top" links. Brown color for links (burnt brown color if previously visited), italics to indicate active or hover.
+  Applied to ordered list links, "Back to Top" links, and footer links. Brown color for links (burnt brown color if previously visited), italics to indicate active or hover.
 */
 .faqLink:link, 
 .footlinks:link {
