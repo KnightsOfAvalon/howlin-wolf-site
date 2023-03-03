@@ -1,9 +1,9 @@
 /* Default styling for all pages */
 /* 
-  Darker cream color for body (surrounds entire webpage and in-between individual elements), set default font-family, font-size, and line-height
+  Light cream color for body (surrounds entire webpage and in-between individual elements), set default font-family, font-size, and line-height
 */
 body {
-  background-color: #ebd5ab;
+  background-color: #f0ece9;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -83,15 +83,6 @@ main {
 */
 ul {
   list-style-image: url(../images/musical-note-icon-12px.png);
-}
-
-/* 
-  Styling for horizontal rules in main element - separates groups of elements in gallery. Sets color to match the body background color and height to 2px.
-*/ 
-main hr {
-  background-color: #ebd5ab;
-  border: none;
-  height: 2px;
 }
 
 /* Styling for images on gallery page. Applies a thin brown border. */
