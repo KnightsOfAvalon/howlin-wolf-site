@@ -1,0 +1,9 @@
+article {
+  box-sizing: border-box;
+  border: #4c3112 medium solid;
+  border-radius: 50px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #ebd5ab;
+  width: 95%
+}
