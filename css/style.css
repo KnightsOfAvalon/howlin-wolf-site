@@ -44,27 +44,43 @@ nav {
   font-size: 25px;
 }
 
-/* START OF SPECIAL STYLING FOR NAV BAR LINKS */
-/* 
-  Applied to nav links for all pages. Font colors do not change (orange color matches header/footer background), no underlines, 25px, font will bold to show active or hover. 
-*/
-.navbar {
-  color: #f69f39;
-  font-size: 25px;
+/* START OF SPECIAL STYLING FOR NAV */
+
+/* Set nav to sticky or fixed */
+.topnav {
+  position: fixed;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #4c3112;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f0ece9;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
-.navbar:link,
-.navbar:visited,
-.navbar:active,
-.navbar:hover {
-  color: #f69f39;
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f0ece9;
+  color: #4c3112;
 }
 
-.navbar:hover {
-  font-weight: bold;
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #7d1c0b;
+  color: white;
 }
-/* END OF SPECIAL STYLING FOR NAV BAR LINKS */
+
+/* END OF SPECIAL STYLING FOR NAV */
 
 /* Brown color for section headings */
 h2, 
