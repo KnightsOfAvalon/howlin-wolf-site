@@ -29,12 +29,6 @@ header h1 {
   font-style: italic;
 }
 
-/* Light cream color for main section of pages */
-main {
-  background-color: #f0ece9;
-  padding: 15px 30px 30px 30px;
-}
-
 /* START OF SPECIAL STYLING FOR NAV */
 
 /* Set nav to sticky or fixed */
@@ -72,6 +66,44 @@ main {
 }
 
 /* END OF SPECIAL STYLING FOR NAV */
+
+/* Light cream color for main section of pages */
+main {
+  background-color: #f0ece9;
+  padding: 15px 30px 30px 30px;
+}
+
+/* START OF SPECIAL FORMATTING FOR FAQ PAGE */
+#wideMain {
+  padding: 0px;
+}
+
+#faqList ol {
+  padding-top: 15px;
+  /* 
+  padding-inline-start: 55px;
+  padding-inline-end: 30px;
+  */
+  padding-inline-start: 100px;
+  padding-inline-end: 30px;
+  padding-bottom: 30px;
+}
+
+#qAndAs dt {
+  padding: 0 30px 0 30px;
+}
+
+#qAndAs dd {
+  padding-top: 30px;
+  padding-inline-start: 70px;
+  padding-inline-end: 30px;
+  margin-inline-start: 0px;
+}
+
+.endDD {
+  padding-bottom: 30px;
+}
+/* END OF SPECIAL FORMATTING FOR FAQ PAGE */
 
 /* Brown color for section headings */
 h2, 
