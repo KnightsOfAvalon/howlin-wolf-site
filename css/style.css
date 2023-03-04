@@ -74,6 +74,12 @@ main {
   padding: 15px 30px 30px 30px;
 }
 
+/* Centers table on home page */
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* START OF SPECIAL FORMATTING FOR FAQ PAGE */
 #wideMain {
   padding: 0px;
