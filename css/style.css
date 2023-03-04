@@ -35,15 +35,6 @@ main {
   padding: 15px 30px 30px 30px;
 }
 
-/* 
-  Nav background matches page titles, vertical lines match header/footer background, 25px 
-*/
-nav {
-  background-color: #4c3112;
-  color: #f69f39;
-  font-size: 25px;
-}
-
 /* START OF SPECIAL STYLING FOR NAV */
 
 /* Set nav to sticky or fixed */
