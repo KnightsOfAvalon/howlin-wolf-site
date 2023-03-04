@@ -68,7 +68,7 @@ main {
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #7d1c0b;
-  color: white;
+  color: #f0ece9;
 }
 
 /* END OF SPECIAL STYLING FOR NAV */
