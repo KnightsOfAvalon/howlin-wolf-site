@@ -1,9 +1,38 @@
 article {
+  clear: both;
+  display: table;
   box-sizing: border-box;
   border: #4c3112 medium solid;
   border-radius: 50px;
   padding: 20px;
-  margin: 20px;
+  margin: 35px auto;
   background-color: #ebd5ab;
-  width: 95%
+  width: 90%;
+}
+
+article div {
+  margin: 50px;
+}
+
+figure {
+  float: left;
+  width: 35vw;
+  margin: 2vh 0;
+}
+
+article:nth-child(even) > figure {
+  float: right;
+}
+
+figure img {
+  display: block;
+  height: 240px;
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  text-align: center;
+  clear: both;
 }
