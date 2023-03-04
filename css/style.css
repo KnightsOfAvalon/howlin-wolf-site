@@ -34,6 +34,7 @@ header h1 {
 /* Set nav to sticky or fixed */
 .topnav {
   position: fixed;
+  padding-left: 30px;
 }
 
 /* Add a black background color to the top navigation */
@@ -199,7 +200,7 @@ dd {
 
 /* Styling for top section of footer */
 #foot1 {
-  padding: 5px 16px;
+  padding: 5px 30px;
   background-color: #4c3112;
   color: #f0ece9;
 }
