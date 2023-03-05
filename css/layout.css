@@ -3,11 +3,17 @@ article {
   display: table;
   box-sizing: border-box;
   border: #4c3112 medium solid;
-  border-radius: 50px;
-  padding: 20px;
+  border-radius: 40px;
   margin: 35px auto;
   background-color: #ebd5ab;
   width: 90%;
+}
+
+article h2 {
+  margin-top: 0;
+  text-align: center;
+  background-color: #f69f39;
+  border-radius: 37px 37px 0px 0;
 }
 
 article div {
