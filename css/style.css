@@ -82,7 +82,7 @@ table {
 
 /* START OF SPECIAL FORMATTING FOR FAQ PAGE */
 #wideMain {
-  padding: 0px;
+  padding: 0 0 30px 0;
 }
 
 #faqList ol {
@@ -107,8 +107,11 @@ table {
   margin-inline-start: 0px;
 }
 
-.endDD {
-  padding-bottom: 30px;
+.anchor {
+  display: block;
+  visibility: hidden;
+  position: relative;
+  height: 54px;
 }
 /* END OF SPECIAL FORMATTING FOR FAQ PAGE */
 
