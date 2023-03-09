@@ -252,7 +252,7 @@ dd {
 /* Styling for active/hover footer links */
 .footlinks:active,
 .footlinks:hover {
-  font-style: italic;
+  color: #FFF1DC;
 }
 
 /* Styling for top section of footer */
