@@ -2,11 +2,11 @@ article {
   clear: both;
   display: table;
   box-sizing: border-box;
-  border: #4c3112 medium solid;
+  border: #342309 medium solid;
   border-radius: 40px;
   padding: 0px;
   margin: 35px auto;
-  background-color: #ebd5ab;
+  background-color: #FFF1DC;
   width: 90%;
 }
 
@@ -14,7 +14,7 @@ article h2 {
   margin-top: 0;
   padding: 10px;
   text-align: center;
-  background-color: #f69f39;
+  background-color: #FB9902;
   border-radius: 37px 37px 0px 0;
 }
 

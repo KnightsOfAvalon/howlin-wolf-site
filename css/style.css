@@ -3,7 +3,7 @@
   Light cream color for body (surrounds entire webpage and in-between individual elements), set default font-family, font-size, and line-height. Gets rid of margin around entire page.
 */
 body {
-  background-color: #f0ece9;
+  background-color: #FFF1DC;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -19,8 +19,8 @@ header {
 /* Orange color for header and footer background, brown color for text */
 header, 
 footer {
-  background-color: #f69f39;
-  color: #4c3112;
+  background-color: #FB9902;
+  color: #342309;
 }
 
 /* Page titles are largest font and italic */
@@ -39,7 +39,7 @@ header h1 {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #4c3112;
+  background-color: #342309;
   overflow: hidden;
   width: 100%;
 }
@@ -47,7 +47,7 @@ header h1 {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f0ece9;
+  color: #FFF1DC;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -56,21 +56,21 @@ header h1 {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #f0ece9;
-  color: #4c3112;
+  background-color: #FFF1DC;
+  color: #342309;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #7d1c0b;
-  color: #f0ece9;
+  background-color: #975B02;
+  color: #FFF1DC;
 }
 
 /* END OF SPECIAL STYLING FOR NAV */
 
 /* Light cream color for main section of pages */
 main {
-  background-color: #f0ece9;
+  background-color: #FFF1DC;
   padding: 15px 30px 30px 30px;
 }
 
@@ -80,7 +80,7 @@ th,
 td {
   margin-left: auto;
   margin-right: auto;
-  border: 1px #4c3112 solid;
+  border: 1px #342309 solid;
   border-spacing: 2px;
 }
 
@@ -128,7 +128,7 @@ td {
 /* Brown color for section headings */
 h2, 
 h3 {
-  color: #4c3112;
+  color: #342309;
 }
 
 /* Set font size for all h2 headings */
@@ -143,7 +143,7 @@ h3 {
 
 /* Slightly off-black color for all text in main element */
 main {
-  color: #352a27;
+  color: #342309;
 }
 
 /* 
@@ -157,7 +157,7 @@ ul {
 main img {
   border-style: solid;
   border-width: 1px;
-  border-color: #4c3112;
+  border-color: #342309;
 }
 
 /* START OF SPECIAL STYLING FOR FAQ LINKS AND FOOTER LINKS */
@@ -166,12 +166,11 @@ main img {
 */
 .faqLink:link, 
 .footlinks:link {
-  color: #4c3112;
+  color: #342309;
 }
 
-.faqLink:visited, 
-.footlinks:visited {
-  color: #7d1c0b;
+.faqLink:visited {
+  color: #975B02;
 }
 
 .faqLink:active, 
@@ -186,8 +185,8 @@ main img {
   Styling for data list questions on FAQ page. Applies background and font colors that match header/footer background and font color, 30px and bold font.
 */
 dt {
-  background-color: #f69f39;
-  color: #4c3112;
+  background-color: #FB9902;
+  color: #342309;
   font-size: 30px;
   font-weight: bold;
 
@@ -204,11 +203,11 @@ dd {
   Applied to citations in the main element of index, FAQs, and gallery pages. Brown color for external main links (burnt brown color if previously visited), italics goes away to indicate hover or active.
 */
 .mainExtLink:link {
-  color: #4c3112;
+  color: #342309;
 }
 
 .mainExtLink:visited {
-  color: #7d1c0b;
+  color: #975B02;
 }
 
 .mainExtLink:active, 
@@ -220,8 +219,8 @@ dd {
 /* Styling for top section of footer */
 #foot1 {
   padding: 5px 30px;
-  background-color: #4c3112;
-  color: #f0ece9;
+  background-color: #342309;
+  color: #FFF1DC;
 }
 
 /* Styling for bottom section of footer */
