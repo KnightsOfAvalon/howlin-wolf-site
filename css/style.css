@@ -169,9 +169,9 @@ main {
 }
 
 /* 
-  Styling for main unordered lists - on index and FAQ pages. Turns default bullet points into musical notes
+  Styling for main unordered lists - on FAQ page. Turns default bullet points into musical notes
 */
-ul {
+dd ul {
   list-style-image: url(../images/musical-note-icon-12px.png);
 }
 
