@@ -1,6 +1,6 @@
 /* Default styling for all pages */
 /* 
-  Light cream color for body (surrounds entire webpage and in-between individual elements), set default font-family, font-size, and line-height. Gets rid of margin around entire page.
+  Light cream color for body, set default font-family, font-size, and line-height. Gets rid of margin around entire page.
 */
 body {
   background-color: #FFF1DC;
@@ -30,14 +30,13 @@ header h1 {
 }
 
 /* START OF SPECIAL STYLING FOR NAV */
-
 /* Set nav to sticky or fixed */
 .topnav {
   position: fixed;
   padding-left: 30px;
 }
 
-/* Add a black background color to the top navigation */
+/* Add a brown background color to the top navigation */
 .topnav {
   background-color: #342309;
   overflow: hidden;
@@ -65,21 +64,23 @@ header h1 {
   background-color: #975B02;
   color: #FFF1DC;
 }
-
 /* END OF SPECIAL STYLING FOR NAV */
 
-/* Light cream color for main section of pages */
+/* Light cream color for main section of pages, padding */
 main {
   background-color: #FFF1DC;
   padding: 15px 30px 30px 30px;
 }
 
+/* START OF SPECIAL STYLING FOR QUOTE ON INDEX PAGE */
+/* Centers entire block, sets max width */
 #quoteBlock {
   margin-left: auto;
   margin-right: auto;
   max-width: 1000px;
 }
 
+/* Styling for big quotation marks */
 #topQMark,
 #botQMark {
   margin-block-start: 0;
@@ -93,17 +94,20 @@ main {
   text-align: right;
 }
 
+/* Styling for quote */
 #quote {
   margin-top: -40px;
   text-align: center;
 }
 
+/* Styling for citation */
 #quoteAuthor {
   margin-block-start: 0;
   margin-block-end: 0;
   margin-bottom: 12px;
   text-align: right;
 }
+/* END OF SPECIAL STYLING FOR QUOTE ON INDEX PAGE */
 
 /* Centers and adds borders to table on home page */
 table, 
@@ -128,10 +132,6 @@ td {
 
 #faqList ol {
   padding-top: 15px;
-  /* 
-  padding-inline-start: 55px;
-  padding-inline-end: 30px;
-  */
   padding-inline-start: 100px;
   padding-inline-end: 30px;
   padding-bottom: 30px;
@@ -172,7 +172,7 @@ h3 {
   font-size: 20px;
 }
 
-/* Slightly off-black color for all text in main element */
+/* Slightly brown color for all text in main element */
 main {
   color: #342309;
 }
@@ -191,9 +191,9 @@ main img {
   border-color: #342309;
 }
 
-/* START OF SPECIAL STYLING FOR FAQ LINKS AND FOOTER LINKS */
+/* START OF SPECIAL STYLING FOR FAQ LINKS */
 /* 
-  Applied to ordered list links, "Back to Top" links, and footer links. Brown color for links (burnt brown color if previously visited), italics to indicate active or hover.
+  Applied to ordered list links and "Back to Top" links. Brown color for links (light brown color if previously visited), italics to indicate active or hover.
 */
 .faqLink:link {
   color: #342309;
@@ -207,7 +207,7 @@ main img {
 .faqLink:hover {
   font-style: italic;
 }
-/* END OF SPECIAL STYLING FOR FAQ LINKS AND FOOTER LINKS */
+/* END OF SPECIAL STYLING FOR FAQ LINKS */
 
 /* 
   Styling for data list questions on FAQ page. Applies background and font colors that match header/footer background and font color, 30px and bold font.
@@ -217,7 +217,6 @@ dt {
   color: #342309;
   font-size: 30px;
   font-weight: bold;
-
 }
 
 /* Styling for data list answers on FAQ page. Applies 20px font size and extra spacing between lines. */
@@ -228,7 +227,7 @@ dd {
 
 /* START OF SPECIAL STYLING FOR EXTERNAL MAIN LINKS */
 /* 
-  Applied to citations in the main element of index, FAQs, and gallery pages. Brown color for external main links (burnt brown color if previously visited), italics goes away to indicate hover or active.
+  Applied to citations in the main element of index, FAQs, and gallery pages. Brown color for external main links (light brown color if previously visited), italics goes away to indicate hover or active.
 */
 .mainExtLink:link {
   color: #342309;
@@ -250,7 +249,8 @@ dd {
   text-decoration: none;
 }
 
-.footlink:active,
+/* Styling for active/hover footer links */
+.footlinks:active,
 .footlinks:hover {
   font-style: italic;
 }
