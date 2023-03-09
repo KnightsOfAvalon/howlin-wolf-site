@@ -80,8 +80,29 @@ main {
   max-width: 1000px;
 }
 
+#topQMark,
+#botQMark {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 150px;
+  line-height: 0.6em;
+  opacity: 0.2;
+}
+
+#botQMark {
+  text-align: right;
+}
+
 #quote {
+  margin-top: -40px;
   text-align: center;
+}
+
+#quoteAuthor {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 12px;
+  text-align: right;
 }
 
 /* Centers and adds borders to table on home page */
