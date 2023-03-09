@@ -109,22 +109,6 @@ main {
 }
 /* END OF SPECIAL STYLING FOR QUOTE ON INDEX PAGE */
 
-/* Centers and adds borders to table on home page */
-table, 
-th, 
-td {
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px #342309 solid;
-  border-spacing: 2px;
-}
-
-/* Padding for cells of table on home page */
-th, 
-td {
-  padding: 5px;
-}
-
 /* START OF SPECIAL FORMATTING FOR FAQ PAGE */
 #wideMain {
   padding: 0 0 30px 0;
