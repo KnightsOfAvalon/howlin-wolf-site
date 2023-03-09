@@ -174,8 +174,7 @@ main img {
 /* 
   Applied to ordered list links, "Back to Top" links, and footer links. Brown color for links (burnt brown color if previously visited), italics to indicate active or hover.
 */
-.faqLink:link, 
-.footlinks:link {
+.faqLink:link {
   color: #342309;
 }
 
@@ -184,9 +183,7 @@ main img {
 }
 
 .faqLink:active, 
-.faqLink:hover, 
-.footlinks:active, 
-.footlinks:hover {
+.faqLink:hover {
   font-style: italic;
 }
 /* END OF SPECIAL STYLING FOR FAQ LINKS AND FOOTER LINKS */
@@ -225,6 +222,17 @@ dd {
   font-style: normal;
 }
 /* END OF SPECIAL STYLING FOR EXTERNAL MAIN LINKS */
+
+/* Styling for footer links */
+.footlinks:link {
+  color: #342309;
+  text-decoration: none;
+}
+
+.footlink:active,
+.footlinks:hover {
+  font-style: italic;
+}
 
 /* Styling for top section of footer */
 #foot1 {
