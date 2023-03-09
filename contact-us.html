@@ -9,6 +9,7 @@
   <link rel="apple-touch-icon" href="./favicon/apple-touch-icon.png">
   <!-- External Styles -->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="./css/colors.css">
   <link rel="stylesheet" href="./css/style.css">
   <title>Contact Form</title>
 </head>
@@ -22,19 +23,28 @@
   </nav>
   <!-- Same nav should be at the top of every page -->
 
-  <header>
+  <header class="mainHeader">
     <h1>Contact Us</h1> 
   </header>
 
   <main>
-    <h2>Email Form</h2>
+    <div id="formInfo" class="w3-container">
+      <div class="w3-card-4">
+        <header class="w3-container w3-theme-dark">
+          <h2 class="w3-theme-dark">Email Form</h2>
+        </header>
 
-    <p>
-      Have a question? Want to make a comment? Just fill out and submit the form below to send me an email. I'd love to hear from you!
-    </p>
-    <p>
-      Please be advised that it may take up to 3 business days to receive a response.
-    </p>
+        <div class="w3-container">
+          <p>
+            Have a question? Want to make a comment? Just fill out and submit the form below to send me an email. I'd love to hear
+            from you!
+          </p>
+          <p>
+            Please be advised that it may take up to 3 business days to receive a response.
+          </p>
+        </div>
+      </div>
+    </div>
 
     <!-- Contact Form -->
     <fieldset>

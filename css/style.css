@@ -11,20 +11,20 @@ body {
 }
 
 /* Layout for header */
-header {
+.mainHeader {
   padding: 60px 30px 30px 30px;
   text-align: center;
 }
 
 /* Orange color for header and footer background, brown color for text */
-header, 
+.mainHeader, 
 footer {
   background-color: #FB9902;
   color: #342309;
 }
 
 /* Page titles are largest font and italic */
-header h1 {
+.mainHeader h1 {
   font-size: 60px;
   font-style: italic;
 }
@@ -233,6 +233,12 @@ main img {
   font-style: normal;
 }
 /* END OF SPECIAL STYLING FOR EXTERNAL MAIN LINKS */
+
+/* Extra spacing for form info block on contact-us page */
+#formInfo {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
 
 /* Styling for footer links */
 .footlinks:link {
