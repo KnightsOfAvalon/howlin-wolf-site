@@ -227,10 +227,45 @@ main img {
 #formInfo {
   margin-top: 15px;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+
+fieldset {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
 }
 
 #emailForm {
   padding-bottom: 15px;
+}
+
+#name,
+#email,
+#phone,
+#topic,
+#messageBody {
+  width: 500px;
+}
+
+#name:focus,
+#email:focus,
+#phone:focus,
+#topic:focus,
+#messageBody:focus {
+  outline: none !important;
+  border: 2px solid #342309 !important;
+}
+
+#checkHead {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+#yourMessageHead {
+  margin-top: 15px;
 }
 
 /* Styling for footer links */
@@ -256,4 +291,9 @@ main img {
 #foot2 {
   padding: 30px;
   text-align: center;
+}
+
+/* Overrides default text color used with w3-sand */
+.w3-sand {
+  color: #342309 !important;
 }
