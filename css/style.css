@@ -36,11 +36,12 @@ footer {
   padding-left: 30px;
 }
 
-/* Add a brown background color to the top navigation */
+/* Add a brown background color to the top navigation, 100% width, in front of everything else on webpage */
 .topnav {
   background-color: #342309;
   overflow: hidden;
   width: 100%;
+  z-index: 999;
 }
 
 /* Style the links inside the navigation bar */
@@ -301,6 +302,12 @@ fieldset {
 /* Puts extra space before submit and clear buttons in form */
 #buttons {
   margin-top: 20px;
+}
+
+/* Controls width of submit and clear buttons in form */
+#sub,
+#res {
+  width: 49.7%;
 }
 
 /* Styling for footer links */
