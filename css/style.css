@@ -232,24 +232,29 @@ main img {
   max-width: 1000px;
 }
 
+/* Centers fieldset and sets max width */
 fieldset {
   margin-left: auto;
   margin-right: auto;
   max-width: 1000px;
 }
 
+/* Gives extra padding to form */
 #emailForm {
   padding-bottom: 15px;
 }
 
+/* Custom styling for textboxes in form */
 #name,
 #email,
 #phone,
 #topic,
 #messageBody {
   width: 500px;
+  border-color: #342309 !important;
 }
 
+/* Custom styling for textboxes on focus in form */
 #name:focus,
 #email:focus,
 #phone:focus,
@@ -259,13 +264,43 @@ fieldset {
   border: 2px solid #342309 !important;
 }
 
-#checkHead {
+/* Puts more space before special headings in form, no space after */
+#contactHead,
+#topicHead,
+#messageHead {
   margin-top: 30px;
   margin-bottom: 0px;
 }
 
+/* Puts options closer to special headings in form */
+.firstOption {
+  margin-top: 10px;
+}
+
+/* Controls accent colors on radio buttons and checkboxes in form */
+.accent {
+  accent-color: #b16b02;
+}
+
+/* Puts extra space before 2nd section of form */
 #yourMessageHead {
   margin-top: 15px;
+}
+
+/* Ensures no extra space after "Message Type" heading in form */
+#typeHead {
+  margin-bottom: 0px;
+}
+
+/* Removes extra space before dropdown box and textarea in form */
+#dropdown,
+#bigTextBox {
+  margin-top: 0px;
+}
+
+/* Puts extra space before submit and clear buttons in form */
+#buttons {
+  margin-top: 20px;
 }
 
 /* Styling for footer links */

@@ -52,41 +52,39 @@
           <h3 class="w3-theme-dark">Your Contact Information</h3>
         </header>
         
-
-        <!-- Name - single-line entry -->
-        <p class="w3-container">
-          <label for="name" title="Please enter your full name.">Name</label>
-          <input class="w3-input w3-border w3-round" type="text" id="name" name="Name" placeholder="e.g. John Smith" required autofocus>
-        </p>
-
-        <!-- Email Address - single-line entry -->
-        <p class="w3-container">
-          <label for="email" title="Please enter your email address.">Email</label>
-          <input class="w3-input w3-border w3-round" type="email" id="email" name="email" placeholder="e.g. EmailAddress@domain.com" required>
-        </p>
-
-        <!-- Phone Number - single-line entry -->
-        <p class="w3-container">
-          <label for="phone" title="You may enter your phone number, but it's not required.">Phone (optional)</label>
-          <input class="w3-input w3-border w3-round" type="text" id="phone" name="phone" placeholder="e.g. 111-222-3333">
-        </p>
-
-        <!-- Methods of Contact - checkboxes -->
-        <h3 id="checkHead" class="w3-container">
-          How may I contact you? (Select all that apply.)
-        </h3>
-
         <div class="w3-container">
-          <p class="w3-container">
-            <input class="w3-check" type="checkbox" name="contactMethods" value="contact-by-email-ok">
+          <!-- Name - single-line entry -->
+          <p>
+            <label for="name" title="Please enter your full name.">Name</label>
+            <input class="w3-input w3-border w3-round" type="text" id="name" name="Name" placeholder="e.g. John Smith" required autofocus>
+          </p>
+
+          <!-- Email Address - single-line entry -->
+          <p>
+            <label for="email" title="Please enter your email address.">Email</label>
+            <input class="w3-input w3-border w3-round" type="email" id="email" name="email" placeholder="e.g. EmailAddress@domain.com" required>
+          </p>
+
+          <!-- Phone Number - single-line entry -->
+          <p>
+            <label for="phone" title="You may enter your phone number, but it's not required.">Phone (optional)</label>
+            <input class="w3-input w3-border w3-round" type="text" id="phone" name="phone" placeholder="e.g. 111-222-3333">
+          </p>
+
+          <!-- Methods of Contact - checkboxes -->
+          <p id="contactHead">
+            How may I contact you? (Select all that apply.)
+          </p>
+          <p class="firstOption">
+            <input class="w3-check accent" type="checkbox" name="contactMethods" value="contact-by-email-ok">
             <label title="Select to allow contact by email.">You may contact me by email.</label>
           </p>
-          <p class="w3-container">
-            <input class="w3-check" type="checkbox" name="contactMethods" value="contact-by-phone-ok">
+          <p>
+            <input class="w3-check accent" type="checkbox" name="contactMethods" value="contact-by-phone-ok">
             <label title="Select to allow contact by phone.">You may contact me by phone.</label>
           </p>
-          <p class="w3-container">
-            <input class="w3-check" type="checkbox" name="contactMethods" value="no-contact">
+          <p>
+            <input class="w3-check accent" type="checkbox" name="contactMethods" value="no-contact">
             <label title="Select for no contact.">Please do not contact me.</label>
           </p>
         </div>
@@ -95,49 +93,49 @@
           <h3 class="w3-theme-dark">Your Message</h3>
         </header>
         
-        <!-- Message Type - radio buttons -->
-        <h3 id="radioHead" class="w3-container">Message Type</h3>
-
-        <p class="w3-container">
-          <input class="w3-radio" type="radio" name="messageType" value="question">
-          <label title="Select if you have a question.">Question</label>
-        </p>
-        <p class="w3-container">
-          <input class="w3-radio" type="radio" name="messageType" value="comment">
-          <label title="Select if you have a comment.">Comment</label>
-        </p>
-
-        <!-- Message Topic - pull-down -->
-        <h3 class="w3-container">
-          <label for="topic" title="Select the topic of your message.">Message Topic</label>
-        </h3>
-
         <div class="w3-container">
-          <select class="w3-select w3-round" name="topic" id="topic">
-            <option value="">Please choose from dropdown</option>
-            <option value="howlin-wolf">Howlin' Wolf</option>
-            <option value="author">Site Author (Me)</option>
-            <option value="site-layout">Site Layout</option>
-            <option value="accessibility">Site Accessibility</option>
-            <option value="other-topic">None of these</option>
-          </select>
+          <!-- Message Type - radio buttons -->
+          <p id="typeHead">
+            Message Type
+          </p>
+          <p class="firstOption">
+            <input class="w3-radio accent" type="radio" name="messageType" value="question">
+            <label title="Select if you have a question.">Question</label>
+          </p>
+          <p>
+            <input class="w3-radio accent" type="radio" name="messageType" value="comment">
+            <label title="Select if you have a comment.">Comment</label>
+          </p>
+
+          <!-- Message Topic - pull-down -->
+          <p id="topicHead">
+            <label for="topic" title="Select the topic of your message.">Message Topic</label>
+          </p>
+          <p id="dropdown">
+            <select class="w3-select w3-border w3-round" name="topic" id="topic">
+              <option value="" disabled selected>-- Please make a selection --</option>
+              <option value="howlin-wolf">Howlin' Wolf</option>
+              <option value="author">Site Author (Me)</option>
+              <option value="site-layout">Site Layout</option>
+              <option value="accessibility">Site Accessibility</option>
+              <option value="other-topic">None of these</option>
+            </select>
+          </p>
+
+          <!-- Message Body - multi-line entry field -->
+          <p id="messageHead">
+            <label for="messageBody" title="Enter your message in the box below.">Message</label><br>
+          </p>
+          <p id="bigTextBox">
+            <textarea class="w3-input w3-border w3-round w3-animate-input" name="message" id="messageBody" cols="30" rows="10"></textarea>
+          </p>
+
+          <!-- Submit and Reset Buttons -->
+          <p id="buttons">
+            <input type="submit" name="submit" value="Send Email">
+            <input type="reset" name="reset" value="Clear Form">
+          </p>
         </div>
-        
-
-        <!-- Message Body - multi-line entry field -->
-        <h3 class="w3-container">
-          <label for="messageBody" title="Enter your message in the box below.">Message</label><br>
-        </h3>
-
-        <p class="w3-container">
-          <textarea class="w3-input w3-border w3-round w3-animate-input" name="message" id="messageBody" cols="30" rows="10"></textarea>
-        </p>
-
-        <!-- Submit and Reset Buttons -->
-        <p class="w3-container">
-          <input type="submit" name="submit" value="Send Email">
-          <input type="reset" name="reset" value="Clear Form">
-        </p>
 
       </form>
     </fieldset>
