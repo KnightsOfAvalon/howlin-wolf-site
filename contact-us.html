@@ -47,47 +47,53 @@
     <!-- Contact Form -->
     <fieldset>
       <legend>Please complete and submit this form.</legend>
-      <form id="emailForm" name="emailForm" method="post" action="mailto:AMatthew@Student.DallasCollege.edu">
-        <h3>Your Contact Information</h3>
+      <form id="emailForm" class="w3-card-4 w3-sand" name="emailForm" method="post" action="mailto:AMatthew@Student.DallasCollege.edu">
+        <header class="w3-container w3-theme-dark">
+          <h3 class="w3-theme-dark">Your Contact Information</h3>
+        </header>
+        
 
         <!-- Name - single-line entry -->
-        <p>
+        <p class="w3-container">
           <label for="name" title="Please enter your full name.">Name:</label>
-          <input type="text" id="name" name="Name" placeholder="e.g. John Smith" size="35" required autofocus>
+          <input class="" type="text" id="name" name="Name" placeholder="e.g. John Smith" size="35" required autofocus>
         </p>
 
         <!-- Email Address - single-line entry -->
-        <p>
+        <p class="w3-container">
           <label for="email" title="Please enter your email address.">Email:</label>
           <input type="email" id="email" name="email" placeholder="e.g. EmailAddress@domain.com" size="35" required>
         </p>
 
         <!-- Phone Number - single-line entry -->
-        <p>
+        <p class="w3-container">
           <label for="phone" title="You may enter your phone number, but it's not required.">Phone:</label>
           <input type="text" id="phone" name="phone" placeholder="e.g. 111-222-3333" size="35"> (optional)
         </p>
 
         <!-- Methods of Contact - checkboxes -->
-        <p>
+        <p class="w3-container">
           How may I contact you? (Select all that apply.)
         </p>
-        <p>
+        <p class="w3-container">
           <label title="Select to allow contact by email."><input type="checkbox" name="contactMethods" value="contact-by-email-ok">You may contact me by email.</label>
           <label title="Select to allow contact by phone."><input type="checkbox" name="contactMethods" value="contact-by-phone-ok">You may contact me by phone.</label>
           <label title="Select for no contact."><input type="checkbox" name="contactMethods" value="no-contact">Please do not contact me.</label>
         </p>
 
-        <h3>Your Message</h3>
+        <header class="w3-container w3-theme-dark">
+          <h3 class="w3-theme-dark">Your Message</h3>
+        </header>
+        
 
         <!-- Message Type - radio buttons -->
-        <p>Message Type:
+        <p class="w3-container">Message Type:
           <label title="Select if you have a question.">Question<input type="radio" name="messageType" value="question"></label>
           <label title="Select if you have a comment.">Comment<input type="radio" name="messageType" value="comment"></label>
         </p>
 
         <!-- Message Topic - pull-down -->
-        <p>
+        <p class="w3-container">
           <label for="topic" title="Select the topic of your message.">Message Topic:</label>
           <select name="topic" id="topic">
             <option value=""> --- Select Topic --- </option>
@@ -100,13 +106,13 @@
         </p>
 
         <!-- Message Body - multi-line entry field -->
-        <p>
+        <p class="w3-container">
           <label for="messageBody" title="Enter your message in the box below.">Message:</label><br>
           <textarea name="message" id="messageBody" cols="30" rows="10"></textarea>
         </p>
 
         <!-- Submit and Reset Buttons -->
-        <p>
+        <p class="w3-container">
           <input type="submit" name="submit" value="Send Email">
           <input type="reset" name="reset" value="Clear Form">
         </p>

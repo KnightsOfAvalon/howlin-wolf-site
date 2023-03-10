@@ -229,6 +229,10 @@ main img {
   margin-bottom: 30px;
 }
 
+#emailForm {
+  padding-bottom: 15px;
+}
+
 /* Styling for footer links */
 .footlinks:link {
   color: #342309;
