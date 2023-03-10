@@ -116,6 +116,11 @@ table {
   max-width: 1500px;
 }
 
+/* Adds extra padding in unordered lists on index and FAQ pages */
+.listSpan {
+  padding-left: 15px;
+}
+
 /* START OF SPECIAL FORMATTING FOR FAQ PAGE */
 #wideMain {
   padding: 0 0 30px 0;
@@ -173,13 +178,6 @@ h3 {
 /* Slightly brown color for all text in main element */
 main {
   color: #342309;
-}
-
-/* 
-  Styling for main unordered lists - on FAQ page. Turns default bullet points into musical notes
-*/
-dd ul {
-  list-style-image: url(../images/musical-note-icon-12px.png);
 }
 
 /* Styling for images on gallery page. Applies a thin brown border. */
