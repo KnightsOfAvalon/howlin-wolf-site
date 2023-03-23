@@ -47,7 +47,7 @@ footer {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #FEEACD;
+  color: #FFF9F0;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -56,14 +56,14 @@ footer {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #FEEACD;
+  background-color: #FFF9F0;
   color: #342309;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #975B02;
-  color: #FEEACD;
+  color: #FFF9F0;
 }
 /* END OF SPECIAL STYLING FOR NAV */
 
@@ -323,14 +323,14 @@ fieldset {
 /* Styling for active/hover footer links */
 .footlinks:active,
 .footlinks:hover {
-  color: #FEEACD;
+  color: #FFF9F0;
 }
 
 /* Styling for top section of footer */
 #foot1 {
   padding: 5px 30px;
   background-color: #342309;
-  color: #FEEACD;
+  color: #FFF9F0;
 }
 
 /* Styling for bottom section of footer */
