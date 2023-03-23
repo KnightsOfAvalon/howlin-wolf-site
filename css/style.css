@@ -123,10 +123,12 @@ table {
 }
 
 /* START OF SPECIAL FORMATTING FOR FAQ PAGE */
+/* Sets no padding for main section of FAQ page to allow FAQ headings to stretch all the way across the page */
 #wideMain {
   padding: 0 0 30px 0;
 }
 
+/* Styling for ol at the top of the FAQ page */
 #faqList ol {
   padding-top: 15px;
   padding-inline-start: 100px;
@@ -152,6 +154,8 @@ table {
   line-height: 2;
 }
 
+/* Styling for invisible anchors used for jumping from ol list to a specific question in the data list.  */
+/* Without these anchors, part of the question would be covered by the nav bar after jumping to the question. */
 .anchor {
   display: block;
   visibility: hidden;
@@ -224,7 +228,7 @@ main img {
 }
 /* END OF SPECIAL STYLING FOR EXTERNAL MAIN LINKS */
 
-/* Extra spacing for form info block on contact-us page */
+/* Extra spacing for form info block on contact-us page, sets max width */
 #formInfo {
   margin-top: 15px;
   margin-bottom: 30px;
