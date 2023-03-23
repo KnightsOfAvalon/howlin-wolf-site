@@ -3,7 +3,7 @@
   Light cream color for body, set default font-family, font-size, and line-height. Gets rid of margin around entire page.
 */
 body {
-  background-color: #FFF1DC;
+  background-color: #FEEACD;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -47,7 +47,7 @@ footer {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #FFF1DC;
+  color: #FEEACD;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -56,20 +56,20 @@ footer {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #FFF1DC;
+  background-color: #FEEACD;
   color: #342309;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #975B02;
-  color: #FFF1DC;
+  color: #FEEACD;
 }
 /* END OF SPECIAL STYLING FOR NAV */
 
 /* Light cream color for main section of pages, padding */
 main {
-  background-color: #FFF1DC;
+  background-color: #FEEACD;
   padding: 15px 30px 30px 30px;
 }
 
@@ -323,23 +323,18 @@ fieldset {
 /* Styling for active/hover footer links */
 .footlinks:active,
 .footlinks:hover {
-  color: #FFF1DC;
+  color: #FEEACD;
 }
 
 /* Styling for top section of footer */
 #foot1 {
   padding: 5px 30px;
   background-color: #342309;
-  color: #FFF1DC;
+  color: #FEEACD;
 }
 
 /* Styling for bottom section of footer */
 #foot2 {
   padding: 30px;
   text-align: center;
-}
-
-/* Overrides default text color used with w3-sand */
-.w3-sand {
-  color: #342309 !important;
 }
