@@ -314,6 +314,13 @@ fieldset {
   width: 49.7%;
 }
 
+/* Controls margins and padding around about-us page */
+#aboutContainer {
+  padding-top: 64px;
+  margin-bottom: 16px;
+  max-width: 1400px;
+}
+
 /* Styling for footer links */
 .footlinks:link {
   color: #342309;
