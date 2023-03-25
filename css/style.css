@@ -314,11 +314,15 @@ fieldset {
   width: 49.7%;
 }
 
-/* Controls margins and padding around about-us page */
+/* Centers about-us page, sets max width */
 #aboutContainer {
-  padding-top: 64px;
-  margin-bottom: 16px;
-  max-width: 1400px;
+  margin: 16px auto;
+  max-width: 1000px;
+}
+
+/* Controls color of text on my pic */
+#myPicText {
+  color: #FFF9F0;
 }
 
 /* Styling for footer links */
