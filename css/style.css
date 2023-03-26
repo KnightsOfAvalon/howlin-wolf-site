@@ -325,10 +325,12 @@ fieldset {
   color: #FFF9F0;
 }
 
+/* Removes some of the padding from special h2's on about-us page */
 .about-us-special-h2 {
   padding: 16px 0px 0px 0px;
 }
 
+/* Removes some padding from paragraphs on about-us page */
 .paragraph {
   padding: 0px 16px;
 }
