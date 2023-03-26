@@ -325,6 +325,14 @@ fieldset {
   color: #FFF9F0;
 }
 
+.about-us-special-h2 {
+  padding: 16px 0px 0px 0px;
+}
+
+.paragraph {
+  padding: 0px 16px;
+}
+
 /* Styling for footer links */
 .footlinks:link {
   color: #342309;
