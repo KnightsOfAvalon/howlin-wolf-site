@@ -333,6 +333,11 @@ fieldset {
   padding: 0px 16px;
 }
 
+/* Puts space between elements in footer */
+.space-after {
+  padding-right: 50px;
+}
+
 /* Styling for footer links */
 .footlinks:link {
   color: #342309;
