@@ -338,9 +338,20 @@ fieldset {
   max-width: 1000px;
 }
 
+/* Makes width of my pic match the width of the column it's in */
+#myPic {
+  width: 100%;
+}
+
 /* Controls color of text on my pic */
 #myPicText {
   color: #FFF9F0;
+}
+
+/* Puts space between basic info under my pic on about-us page */
+.basicInfoLine {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
 }
 
 /* Sets width of space for icons in section following my pic on about-us page */
