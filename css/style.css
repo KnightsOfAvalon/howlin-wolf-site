@@ -141,6 +141,9 @@ table {
   padding-inline-start: 100px;
   padding-inline-end: 30px;
   padding-bottom: 30px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Styling for data list questions on FAQ page. */
@@ -149,6 +152,7 @@ table {
   background-color: #FB9902;
   color: #342309;
   font-size: 30px;
+  text-align: center;
 }
 
 /* Styling for data list answers on FAQ page. */
@@ -156,9 +160,11 @@ table {
   padding-top: 30px;
   padding-inline-start: 70px;
   padding-inline-end: 30px;
-  margin-inline-start: 0px;
   font-size: 20px;
   line-height: 2;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Styling for invisible anchors used for jumping from ol list to a specific question in the data list.  */
@@ -234,6 +240,11 @@ main img {
   font-style: normal;
 }
 /* END OF SPECIAL STYLING FOR EXTERNAL MAIN LINKS */
+
+/* Sets max width on articles on gallery page */
+article {
+  max-width: 1000px;
+}
 
 /* Extra spacing for form info block on contact-us page, sets max width */
 #formInfo {
