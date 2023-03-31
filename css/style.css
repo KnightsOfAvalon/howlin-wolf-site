@@ -332,6 +332,38 @@ fieldset {
   color: #FFF9F0;
 }
 
+/* Sets width of space for icons in section following my pic on about-us page */
+.icon {
+  width: 40px;
+}
+
+/* Sets width of the hover dropdown box in "Skills Overview" section of about-us page */
+#dropDown {
+  width: 250px;
+}
+
+/* START OF SPECIAL STYLING FOR BARS IN SKILLS OVERVIEW SECT OF ABOUT-US PAGE */
+#problemSolvingBar {
+  width: 90%;
+}
+
+#codingBar {
+  width: 80%;
+}
+
+#fileMngmtBar {
+  width: 75%;
+}
+
+#webDesignBar {
+  width: 70%
+}
+
+#versionCntrlBar {
+  width: 50%
+}
+/* END OF SPECIAL STYLING FOR BARS IN SKILLS OVERVIEW SECT OF ABOUT-US PAGE */
+
 /* Removes some of the padding from special h2's on about-us page */
 .about-us-special-h2 {
   padding: 16px 0px 0px 0px;
