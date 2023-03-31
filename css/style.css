@@ -110,6 +110,7 @@ main {
 }
 /* END OF SPECIAL STYLING FOR QUOTE ON INDEX PAGE */
 
+/* Sets max width on sections on index page and centers them */
 .indexSection {
   margin-left: auto;
   margin-right: auto;
@@ -339,6 +340,13 @@ fieldset {
 /* Removes some padding from paragraphs on about-us page */
 .paragraph {
   padding: 0px 16px;
+}
+
+/* Sets color of hr's on about-us page */
+hr {
+  height: 1px;
+  border: none;
+  background-color: #FEEACD;
 }
 
 /* Puts space between elements in footer */
