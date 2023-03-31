@@ -124,12 +124,12 @@ table {
   max-width: 1000px;
 }
 
+/* START OF SPECIAL FORMATTING FOR FAQ PAGE */
 /* Adds extra padding in unordered lists on index and FAQ pages */
 .listSpan {
   padding-left: 15px;
 }
 
-/* START OF SPECIAL FORMATTING FOR FAQ PAGE */
 /* Sets no padding for main section of FAQ page to allow FAQ headings to stretch all the way across the page */
 #wideMain {
   padding: 0 0 30px 0;
@@ -255,19 +255,19 @@ article {
   max-width: 1000px;
 }
 
-/* Centers fieldset and sets max width */
+/* Centers fieldset and sets max width for form on contact-us page */
 fieldset {
   margin-left: auto;
   margin-right: auto;
   max-width: 1000px;
 }
 
-/* Gives extra padding to form */
+/* Gives extra padding to form on contact-us page */
 #emailForm {
   padding-bottom: 15px;
 }
 
-/* Custom styling for textboxes in form */
+/* Custom styling for textboxes in form on contact-us page */
 #name,
 #email,
 #phone,
@@ -277,7 +277,7 @@ fieldset {
   border-color: #342309 !important;
 }
 
-/* Custom styling for textboxes on focus in form */
+/* Custom styling for textboxes on focus in form on contact-us page */
 #name:focus,
 #email:focus,
 #phone:focus,
@@ -287,7 +287,7 @@ fieldset {
   border: 2px solid #342309 !important;
 }
 
-/* Puts more space before special headings in form, no space after */
+/* Puts more space before special headings in form, no space after - contact-us page */
 #contactHead,
 #topicHead,
 #messageHead {
@@ -295,38 +295,38 @@ fieldset {
   margin-bottom: 0px;
 }
 
-/* Puts options closer to special headings in form */
+/* Puts options closer to special headings in form on contact-us page */
 .firstOption {
   margin-top: 10px;
 }
 
-/* Controls accent colors on radio buttons and checkboxes in form */
+/* Controls accent colors on radio buttons and checkboxes in form on contact-us page */
 .accent {
   accent-color: #b16b02;
 }
 
-/* Puts extra space before 2nd section of form */
+/* Puts extra space before 2nd section of form on contact-us page */
 #yourMessageHead {
   margin-top: 15px;
 }
 
-/* Ensures no extra space after "Message Type" heading in form */
+/* Ensures no extra space after "Message Type" heading in form on contact-us page */
 #typeHead {
   margin-bottom: 0px;
 }
 
-/* Removes extra space before dropdown box and textarea in form */
+/* Removes extra space before dropdown box and textarea in form on contact-us page */
 #dropdown,
 #bigTextBox {
   margin-top: 0px;
 }
 
-/* Puts extra space before submit and clear buttons in form */
+/* Puts extra space before submit and clear buttons in form on contact-us page */
 #buttons {
   margin-top: 20px;
 }
 
-/* Controls width of submit and clear buttons in form */
+/* Controls width of submit and clear buttons in form on contact-us page */
 #sub,
 #res {
   width: 49.7%;
@@ -338,12 +338,12 @@ fieldset {
   max-width: 1000px;
 }
 
-/* Makes width of my pic match the width of the column it's in */
+/* Makes width of my pic match the width of the column it's in - about-us page */
 #myPic {
   width: 100%;
 }
 
-/* Controls color of text on my pic */
+/* Controls color of text on my pic on about-us page */
 #myPicText {
   color: #FFF9F0;
 }
