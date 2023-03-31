@@ -375,8 +375,8 @@ fieldset {
 }
 /* END OF SPECIAL STYLING FOR BARS IN SKILLS OVERVIEW SECT OF ABOUT-US PAGE */
 
-/* Removes some of the padding from special h2's on about-us page */
-.about-us-special-h2 {
+/* Removes some of the padding from h2's on about-us page */
+.about-us-h2 {
   padding: 16px 0px 0px 0px;
 }
 
